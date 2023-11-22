@@ -10,11 +10,11 @@ CREATE TABLE IF NOT EXISTS alumnos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     apellidos VARCHAR(200),
     nombres VARCHAR(200),
-    dni INT(11)
+    dni INT(8)
 );
 
 -- Insertar registros en la tabla "alumnos"
 INSERT INTO alumnos (apellidos, nombres, dni) VALUES
-    ('García', 'Juan', 345678901),
-    ('López', 'María', 456789012),
-    ('Martínez', 'Carlos', 367890123);
+    ('Marquez', 'Carlos', 28451245),
+    ('Fernadez', 'Mario', 30584769),
+    ('Lopez', 'Sheila', 45256947);
